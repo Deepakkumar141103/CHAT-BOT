@@ -1,0 +1,31 @@
+{"intent": [
+        {"tag": "greeting",
+         "patterns": ["Hello", "Hi", "Hey", "Good morning", "Good evening"],
+         "responses": ["Hello! How are you feeling today?", "Hi there! How can I support you today?", "Hey! What's on your mind?", "Good morning! How can I   help you?", "Good evening! How are you doing today?"]
+        },
+        {"tag": "discuss_mental_health",
+         "patterns": ["I'm feeling stressed", "I'm anxious about my job search", "I feel overwhelmed", "I'm feeling down", "I'm struggling with anxiety"],
+         "responses": ["I'm sorry to hear that. Would you like to talk more about it?", "It's okay to feel this way. How long have you been feeling like    this?", "I understand. Can you tell me more about what's been going on?", "Let's talk about it. What has been on your mind lately?", "I'm here for you. Do  you want to share more details?"]
+        },
+        {"tag": "stress_relief_exercises",
+         "patterns": ["Can you suggest some stress relief exercises?", "How can I reduce my stress?", "I need some relaxation techniques", "What are some  mindfulness exercises?", "Help me relax"],
+         "responses": ["Sure! Here are a few exercises: \n1. Deep breathing: Inhale slowly for 4 counts, hold for 4 counts, exhale for 4 counts.\n2. Progressive muscle relaxation: Tense and relax each muscle group.\n3. Mindful walking: Focus on your steps and surroundings.", "You can try deep breathing exercises, progressive muscle relaxation, or mindful walking. Would you like to try one now?", "Let's start with deep breathing: Inhale slowly through your nose, hold your breath for a few seconds, and then exhale slowly through your mouth.", "How about a mindfulness exercise? Close your eyes and focus on your breath, noticing each inhale and exhale.","One effective technique is progressive muscle relaxation. Start by tensing and then relaxing your toes, then move up to your legs, and so on."]
+        },
+        {
+         "tag": "professional_help_resources",
+         "patterns": ["Where can I find professional help?", "I need to talk to a therapist", "Can you recommend any mental health professionals?", "I think I need professional support", "How do I find a counselor?"],
+         "responses": ["Here are some resources where you can find professional help: \n1. [Therapist Finder](https://www.betterhelp.com)\n2. [Mental Health Helpline](https://www.psychologytoday.com/us/therapists)\n3. [Online Counseling](https://www.therapyroute.com)", "It's great that you're seeking professional help. You can find therapists through [Therapist Finder](https://openpathcollective.org) or contact the [Mental Health Helpline](https://www.example.com).", "For professional support, consider visiting [Online Counseling](https://www.betterhelp.com) or checking local mental health services.", "Talking to a therapist can be very helpful. Try searching for professionals on [Therapist Finder](https://www.psychologytoday.com/us/therapists) or calling the [Mental Health Helpline](https://www.betterhelp.com).", "To find a counselor, you can start with [Therapist Finder](https://www.therapyroute.com) or visit [Mental Health Helpline](https://www.psychologytoday.com/us/therapists)."]
+        },
+        {
+         "tag": "daily_wellbeing_tips",
+         "patterns": ["Give me a daily wellness tip", "How can I maintain my mental well-being?", "What's a good mental health tip for today?", "I need some advice on staying positive", "How do I keep myself mentally healthy?"],
+         "responses": ["Today's tip: Take a few minutes to practice gratitude. Write down three things you're thankful for.", "Remember to take breaks and go for a short walk. Physical activity can boost your mood.", "Stay connected with friends and family. A quick call or message can make a big difference.", "Try to maintain a regular sleep schedule. Good sleep is crucial for mental health.", "Make time for activities you enjoy. Hobbies can be a great way to relieve stress and stay positive."]
+        },
+        {
+         "tag": "goodbye",
+         "patterns": ["Thank you", "Thanks for your help", "Goodbye", "See you later", "Talk to you soon"],
+         "responses": ["You're welcome! Take care!", "I'm glad I could help. Have a great day!", "Goodbye! Remember, I'm here if you need to talk.", "See you later! Stay well!", "Talk to you soon! Wishing you all the best."]
+        }
+    ]
+}
+    
